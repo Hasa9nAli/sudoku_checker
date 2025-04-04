@@ -1,4 +1,6 @@
-package utils
+import utils.withGreenColor
+import utils.withRedColor
+
 
 fun check(name: String, result: Boolean, correctResult: Boolean){
     if(result == correctResult){
