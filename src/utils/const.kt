@@ -9,6 +9,11 @@ const val VALID_4x4 = "when sudoku 1 2 3 4\n" +
                                   "2 1 4 3\n" +
                                   "4 3 2 1"
 
+const val VALID_4x4_1 = "when sudoku - 2 3 4\n" +
+                                    "3 4 - 2\n" +
+                                    "2 - 4 3\n" +
+                                    "4 3 2 1"
+
 const val INVALID_4x4 = "when sudoku 1 2 3 5\n" +
                                     "3 4 1 2\n" +
                                     "2 1 4 3\n" +
@@ -70,6 +75,10 @@ const val INVALID_16x16 = "when sudoku  1  2  3  4  5  6  7  8  9 10 11 12 13 14
 const val INVALID_3x4 = "when sudoku 1 2 3 4\n" +
                                     "2 3 4 1\n" +
                                     "3 4 1 2"
+
+const val EMPTY = "when sudoku       - - - -\n" +
+                                    "- - - -\n" +
+                                    "- - - -"
 
 const val INVALID_8x7 = "when sudoku 1 2 3 4 5 6 7\n" +
                                     "2 3 4 5 6 7 1\n" +
